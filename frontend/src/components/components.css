@@ -1,0 +1,56 @@
+.formContent {
+    border: 1px solid rgb(76, 175, 80);
+    padding:20px ;
+    margin: 30px;
+    width: fit-content;
+ 
+}
+.containerForm{
+    justify-content: center;
+    display: flex;
+}
+.tr_class{
+    display: table-caption
+}
+.personcard{
+    padding-left:20px ;
+    padding-bottom: 20px;
+    width: fit-content; 
+   text-indent: 10px,;
+}
+.savebtn{
+    width: 80px;
+    height: 25px;
+    margin: 5px;
+}
+select{
+    width: fit-content;
+    margin-left:10px
+}
+.radiogroup{
+
+    display:inline-flex
+}
+.radiogroup label {
+    align-self:center;
+    margin-right: 20px !important;
+}
+.genderField{
+   display: flex;
+   flex-flow:column;
+}
+.title {
+    margin-top:1em;
+    padding-left:25px
+}
+.divlistcards{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ui.card{
+    flex-shrink: 3;
+}
+.ui.card:first-child {
+    margin-top:1em !important;
+}
