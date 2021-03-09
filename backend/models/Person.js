@@ -9,7 +9,7 @@ const Person = new Schema({
   },
   lastName:{
        type:String,
-       required: [true, 'LastName is required']
+       required: false
   },
   email:{
     type:String,
